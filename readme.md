@@ -1,11 +1,10 @@
-#nvim configuration for c
+# nvim configuration for c
 
 This is my configuration for nvim and c# and other languages 
 
-##intallation
+## intallation
 
-first is nesesary install [nvim]
-(https://github.com/neovim/neovim/releases)
+first is nesesary install [nvim](https://github.com/neovim/neovim/releases)
 
 next yo need to create a configuration folder with the next comand
 

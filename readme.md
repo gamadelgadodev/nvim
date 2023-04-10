@@ -20,7 +20,7 @@ and you can find the path folder with
 next you only need clone the repo in the folder with the next comand
 
 ```bash
-git clone link
+git clone https://github.com/gamadelgadodev/nvim.git
 ```
 you need install some programs for use my nvim configuration
 first 

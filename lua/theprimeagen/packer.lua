@@ -22,6 +22,20 @@ return require('packer').startup(function(use)
   use('vim-airline/vim-airline')
   use('drewtempelmeyer/palenight.vim')
   use('preservim/nerdtree')
+  use('dense-analysis/ale')
+  use('SirVer/ultisnips')
+  use('honza/vim-snippets')
+  use('williamboman/nvim-lsp-installer')
+  use('OmniSharp/omnisharp-vim')
+  use('nickspoons/vim-sharpenup')
+  use('junegunn/fzf')
+  use('junegunn/fzf.vim')
+  use('prabirshrestha/asyncomplete.vim')
+  use('itchyny/lightline.vim')
+  use('shinchu/lightline-gruvbox.vim')
+  use('maximbaz/lightline-ale')
+  use('ellisonleao/gruvbox.nvim')
+
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v2.x',

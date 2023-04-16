@@ -29,3 +29,6 @@ first
 choco install ripgrep 
 choco install fd
 ```
+```bash
+ python3 -m pip install --user --upgrade pynvim
+ ```

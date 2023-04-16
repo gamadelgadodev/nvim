@@ -79,6 +79,16 @@ _G.packer_plugins = {
     path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
+  ale = {
+    loaded = true,
+    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\ale",
+    url = "https://github.com/dense-analysis/ale"
+  },
+  ["asyncomplete.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\asyncomplete.vim",
+    url = "https://github.com/prabirshrestha/asyncomplete.vim"
+  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
@@ -109,10 +119,40 @@ _G.packer_plugins = {
     path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  fzf = {
+    loaded = true,
+    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\fzf",
+    url = "https://github.com/junegunn/fzf"
+  },
+  ["fzf.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\fzf.vim",
+    url = "https://github.com/junegunn/fzf.vim"
+  },
+  ["gruvbox.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\gruvbox.nvim",
+    url = "https://github.com/ellisonleao/gruvbox.nvim"
+  },
   harpoon = {
     loaded = true,
     path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\harpoon",
     url = "https://github.com/theprimeagen/harpoon"
+  },
+  ["lightline-ale"] = {
+    loaded = true,
+    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lightline-ale",
+    url = "https://github.com/maximbaz/lightline-ale"
+  },
+  ["lightline-gruvbox.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lightline-gruvbox.vim",
+    url = "https://github.com/shinchu/lightline-gruvbox.vim"
+  },
+  ["lightline.vim"] = {
+    loaded = true,
+    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\lightline.vim",
+    url = "https://github.com/itchyny/lightline.vim"
   },
   ["lsp-zero.nvim"] = {
     loaded = true,
@@ -139,6 +179,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
   },
+  ["nvim-lsp-installer"] = {
+    loaded = true,
+    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lsp-installer",
+    url = "https://github.com/williamboman/nvim-lsp-installer"
+  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-lspconfig",
@@ -148,6 +193,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
+  ["omnisharp-vim"] = {
+    loaded = true,
+    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\omnisharp-vim",
+    url = "https://github.com/OmniSharp/omnisharp-vim"
   },
   ["packer.nvim"] = {
     loaded = true,
@@ -174,6 +224,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ultisnips = {
+    loaded = true,
+    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\ultisnips",
+    url = "https://github.com/SirVer/ultisnips"
+  },
   undotree = {
     loaded = true,
     path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\undotree",
@@ -188,6 +243,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-sharpenup"] = {
+    loaded = true,
+    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-sharpenup",
+    url = "https://github.com/nickspoons/vim-sharpenup"
+  },
+  ["vim-snippets"] = {
+    loaded = true,
+    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\vim-snippets",
+    url = "https://github.com/honza/vim-snippets"
   }
 }
 

@@ -55,6 +55,10 @@ vim.cmd[[
 ]]
 -- }}}
 
+--use a autopairs
+vim.g.AutoPairsFlyMode = 0
+
+
 -- Use truecolor in the terminal, when it is supported
 if vim.fn.has('termguicolors') == 1 then
 vim.o.termguicolors = true

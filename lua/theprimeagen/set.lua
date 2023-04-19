@@ -89,13 +89,6 @@ vim.g.sharpenup_map_prefix = '<Space>os'
 vim.g.sharpenup_statusline_opts = { ['Text'] = '%s (%p/%P)' }
 vim.g.sharpenup_statusline_opts.Highlight = 0
 
-vim.api.nvim_exec([[
-augroup OmniSharpIntegrations
-autocmd!
-autocmd User OmniSharpProjectUpdated,OmniSharpReady call lightline#update()
-augroup END
-]], false)
-
 
 
 -- Lightline
@@ -131,38 +124,6 @@ vim.g.lightline = {
 }
 
 --vim.g.lightline.ale.indicator_checking = ""
-
-
--- OmniSharp: 
-if vim.fn.has('nvim') == 1 then
-  vim.g.OmniSharp_popup_options = {
-    winblend = 30,
-    winhl = 'Normal:Normal,FloatBorder:ModeMsg',
-    border = 'rounded'
-  }
-else
-  vim.g.OmniSharp_popup_options = {
-    highlight = 'Normal',
-    padding = {0},
-    border = {1},
-    borderchars = {'─', '│', '─', '│', '╭', '╮', '╯', '╰'},
-    borderhighlight = {'ModeMsg'}
-  }
-end
-
-vim.g.OmniSharp_popup_position = 'peek'
-vim.g.OmniSharp_popup_mappings = {
-  sigNext = '<C-n>',
-  sigPrev = '<C-p>',
-  pageDown = {'<C-f>', '<PageDown>'},
-  pageUp = {'<C-b>', '<PageUp>'}
-}
-
-
-if using_snippets then
-  vim.g.OmniSharp_want_snippet = 1
-end
-
 vim.g.OmniSharp_highlight_groups = {
   ExcludedCode = 'NonText'
 }

@@ -77,20 +77,6 @@ vim.g.ale_sign_style_warning = '·'
 vim.g.ale_linters = {
     cs = {'OmniSharp'}
 }
-
--- Asyncomplete:
-vim.g.asyncomplete_auto_popup = 1
-vim.g.asyncomplete_auto_completeopt = 1
-
--- Sharpenup
--- All sharpenup mappings will begin with <Space>os, e.g. <Space>osgd for
--- :OmniSharpGotoDefinition
-vim.g.sharpenup_map_prefix = '<Space>os'
-vim.g.sharpenup_statusline_opts = { ['Text'] = '%s (%p/%P)' }
-vim.g.sharpenup_statusline_opts.Highlight = 0
-
-
-
 -- Lightline
 vim.g.lightline = {
   colorscheme = 'gruvbox',

@@ -23,20 +23,19 @@ return require('packer').startup(function(use)
   use('drewtempelmeyer/palenight.vim')
   use('preservim/nerdtree')
   use('dense-analysis/ale')
-  use('SirVer/ultisnips')
-  use('honza/vim-snippets')
+  --use('SirVer/ultisnips')
+  --use('honza/vim-snippets')
   use('williamboman/nvim-lsp-installer')
   use('OmniSharp/omnisharp-vim')
   use('nickspoons/vim-sharpenup')
   use('junegunn/fzf')
   use('junegunn/fzf.vim')
-  use('prabirshrestha/asyncomplete.vim')
+  --use('prabirshrestha/asyncomplete.vim')
   use('itchyny/lightline.vim')
   use('shinchu/lightline-gruvbox.vim')
   use('maximbaz/lightline-ale')
   use('ellisonleao/gruvbox.nvim')
   use('jiangmiao/auto-pairs')
-
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v2.x',
@@ -53,10 +52,13 @@ return require('packer').startup(function(use)
 		  {'saadparwaiz1/cmp_luasnip'},
 		  {'hrsh7th/cmp-nvim-lsp'},
 		  {'hrsh7th/cmp-nvim-lua'},
+                  --{'prabirshrestha/asyncomplete.vim'},
 
 		  -- Snippets
 		  {'L3MON4D3/LuaSnip'},
 		  {'rafamadriz/friendly-snippets'},
+                  {'SirVer/ultisnips'},
+                  {'honza/vim-snippets'},
 	  }
   }
 end)

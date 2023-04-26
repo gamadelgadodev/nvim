@@ -84,11 +84,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\ale",
     url = "https://github.com/dense-analysis/ale"
   },
-  ["asyncomplete.vim"] = {
-    loaded = true,
-    path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\asyncomplete.vim",
-    url = "https://github.com/prabirshrestha/asyncomplete.vim"
-  },
   ["auto-pairs"] = {
     loaded = true,
     path = "C:\\Users\\mtekn\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\auto-pairs",

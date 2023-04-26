@@ -11,7 +11,7 @@ end
 vim.o.encoding = 'utf-8'
 --vim.o.scriptencoding = 'utf-8'
 
-vim.opt.completeopt= "menu,menuone,noselect"
+--vim.opt.completeopt= "menu,menuone,noselect"
 --vim.opt.pumblend ="highlight:Pmenu,border:off"
 --vim.o.backspace = 'indent,eol,start'
 vim.o.expandtab = true

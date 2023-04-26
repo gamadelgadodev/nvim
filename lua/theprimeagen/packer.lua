@@ -36,6 +36,7 @@ return require('packer').startup(function(use)
   use('maximbaz/lightline-ale')
   use('ellisonleao/gruvbox.nvim')
   use('jiangmiao/auto-pairs')
+  use('preservim/nerdcommenter')
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v2.x',
